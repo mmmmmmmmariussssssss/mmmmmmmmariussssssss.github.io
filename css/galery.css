@@ -1,0 +1,39 @@
+
+.element_title{
+  font-size: 44px;
+  font-family: 'Museo Sans 700',sans-serif;
+  text-align: center;
+  color:#209659;
+  margin: 30px 0 50px;
+}
+
+.gallery{
+  margin:10px 50px;
+  text-align: center;
+}
+
+.gallery a {
+  text-decoration: none;
+}
+
+.image-div:hover{
+  filter: contrast(110%);
+  transform: scale(1.05);
+
+}
+
+.image-div {
+  display: inline-block;
+  width: 400px;
+  height: 250px;
+  margin: 5px;
+  transition: 1s;
+  background-color: black;
+  /*background-image: url('../images/pic10b.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;*/
+
+  position: relative;
+  overflow: hidden;
+}

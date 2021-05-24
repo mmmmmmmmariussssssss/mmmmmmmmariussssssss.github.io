@@ -1,0 +1,119 @@
+@import 'https://code.highcharts.com/css/highcharts.css';
+
+.content-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-child{
+    flex: 1;
+    margin: auto;
+    padding: 15px;
+}
+.content-child-child{
+    flex: 1;
+    margin: auto;
+}
+
+.text{
+    text-align: center;
+    justify-content: center;
+}
+
+.content-column{
+    display: flex;
+    flex-direction: column;
+}
+
+#big_div{
+    background-color: #2d6a4f;
+    padding: 5px;
+}
+
+.table{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    width: calc(100% - 30px);
+    min-height: 30px;
+    background-color: #2d6a4f;
+}
+
+#table_content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#table_title {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(250, 160, 0, 0.8);
+    font-size: 36px;
+    font-family: "Antiqua";
+    font-weight: 600;
+}
+
+.image_class{
+    width: 100%;
+    min-width: 0;
+    /* height: 100%; */
+    padding: 2px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: forestgreen;
+    width: 166px;
+    height: 250px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.div-onoare {
+    width: 166px;
+    height: 166px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card_container {
+    padding: 5px;
+}
+
+.table_photo {
+    border-radius: 5px 5px 0 0;
+    width: 166px;
+    height: 166px;
+    object-fit: cover;
+}
+
+.highcharts-background{
+    fill: #2d6a4f;
+}
+
+.highcharts-point.highcharts-color-0,
+.highcharts-legend-item.highcharts-color-0 .highcharts-point,
+.highcharts-tooltip .highcharts-color-0 {
+	fill: #191716;
+}
+.highcharts-point.highcharts-color-1,
+.highcharts-legend-item.highcharts-color-1 .highcharts-point,
+.highcharts-tooltip .highcharts-color-1 {
+	fill: #e6af2e;
+}
+.highcharts-point.highcharts-color-3,
+.highcharts-legend-item.highcharts-color-3 .highcharts-point,
+.highcharts-tooltip .highcharts-color-3 {
+	fill: #e0e2db;
+}
+.highcharts-point.highcharts-color-2,
+.highcharts-legend-item.highcharts-color-2 .highcharts-point,
+.highcharts-tooltip .highcharts-color-2 {
+	fill: #D44D5C;
+}

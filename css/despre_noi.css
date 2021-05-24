@@ -1,0 +1,120 @@
+.calitati {
+  list-style: decimal;
+  margin-left: 22px;
+  margin-top: 10px;
+
+}
+.comod{
+  list-style: square;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.emphasis{
+  font-style: italic;
+  color:#ff4d4d;
+}
+.emphasis2{
+  color:#00b300;
+}
+
+.despre_noi_element{
+  margin-top: 20px;
+}
+
+.despre_noi_element:last-of-type {
+  margin-bottom: 10px;
+}
+
+
+.despre_noi_element img{
+  /*filter: grayscale(30%);*/
+  transition: 0.5s;
+}
+
+.despre_noi_element img:hover{
+  filter: contrast(110%);
+  transform: scale(1.05);
+}
+
+.comodities_images {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.comodities_images_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.ph1 {
+  flex-grow: 2;
+  width: 18em;
+  z-index: 20;
+}
+
+.ph2 {
+  flex-grow: 1;
+  width: 9em;
+  z-index: 10;
+}
+
+.ph3{
+  flex-grow: 1;
+  width: 13em;
+  z-index: 10;
+}
+
+/*.ph{
+  width: 300px;
+  margin: auto;
+  float: right;
+  clear: right;
+}*/
+
+.video {
+  max-width: 960px;  /*!! deja in procente nu se mai calculeaza din el insusi ci din parinte !!*/
+  margin: auto;
+}
+
+.video_container {
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 56.25%; /*!! deja in procente nu se mai calculeaza din el insusi ci din parinte !!*/
+}
+
+.video-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+.spiru-portrait {
+  float: right;
+  margin: 20px;
+  margin-top: 0px;
+  margin-right: 0px;
+  width: 250px;
+}
+
+.map_container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /*!! deja in procente nu se mai calculeaza din el insusi ci din parinte !!*/
+}
+
+.map {
+  max-width: 100%;
+}

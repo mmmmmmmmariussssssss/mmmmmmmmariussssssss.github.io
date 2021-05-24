@@ -1,0 +1,21 @@
+<link rel="stylesheet" type="text/css" href="css/reset.css"> (! de pus in head dupa title)
+<meta name="viewport" content="width=device-width,initial-scale=1.0"> (! de pus in head dupa title)
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}    (in css)
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+  overflow: hidden;
+}  (in css pentru parintii elementelor floatate)
+
+.container {
+  max-width: (value);
+  margin-left: auto;
+  margin-right: auto;
+}    (in css pentru a avea chestii in acelasi loc pe pagina in centru,greu de explicat,nu lipite de margini,nu mereu insa e important de tinut minte)
